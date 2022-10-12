@@ -4,17 +4,14 @@ import { Link } from 'react-router-dom'
 import { Helmet } from 'react-helmet'
 
 import './home.css'
-<html>
-  <head>
-    <link rel="Icon" href="/playground_assets/logo.png"></link>
-  </head>
-</html>
+
 const Home = (props) => {
   return (
     <div className="home-container">
       <Helmet>
         <title>RTFM Server</title>
         <meta property="og:title" content="RTFM Server" />
+        <link rel="Icon" href="/playground_assets/logo.png"></link>
       </Helmet>
       <div className="home-container1">
         <div className="home-container2">
