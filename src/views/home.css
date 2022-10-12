@@ -56,23 +56,28 @@
   color: rgb(255, 255, 255);
   text-decoration: none;
   background-color: rgb(0, 0, 0);
+  top: auto;
 }
 .home-navlink1 {
   color: rgb(255, 255, 255);
   text-decoration: none;
   background-color: rgb(0, 0, 0);
+  top: auto;
 }
 .home-navlink2 {
   color: rgb(255, 255, 255);
   text-decoration: none;
   background-color: rgb(0, 0, 0);
+  top: auto;
 }
 .home-button {
   color: rgb(255, 255, 255);
   background-color: rgb(0, 0, 0);
+  top: auto;
 }
 .home-navlink3 {
   text-decoration: none;
+  top: auto;
 }
 .copyright {
   color: #ffffff;
