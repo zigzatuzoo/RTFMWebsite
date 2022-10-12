@@ -18,9 +18,9 @@ const Members = (props) => {
           alt="image"
           className="members-image"
         />
-        <Link to="/about-us" className="members-navlink button">
+        <Link to="/home" className="members-navlink2 button">
           <span>
-            <span>About Us</span>
+            <span>home</span>
             <br></br>
           </span>
         </Link>

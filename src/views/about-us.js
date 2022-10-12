@@ -18,9 +18,9 @@ const AboutUs = (props) => {
           alt="image"
           className="about-us-image"
         />
-        <Link to="/about-us" className="about-us-navlink button">
+        <Link to="/home" className="about-us-navlink2 button">
           <span>
-            <span>About Us</span>
+            <span>home</span>
             <br></br>
           </span>
         </Link>

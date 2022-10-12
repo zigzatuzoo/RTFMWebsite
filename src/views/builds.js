@@ -18,15 +18,15 @@ const Builds = (props) => {
           alt="image"
           className="builds-image"
         />
-        <Link to="/about-us" className="builds-navlink button">
+        <Link to="/home" className="builds-navlink2 button">
           <span>
-            <span>About Us</span>
+            <span>home</span>
             <br></br>
           </span>
         </Link>
-        <Link to="/builds" className="builds-navlink1 button">
+        <Link to="/about-us" className="builds-navlink button">
           <span>
-            <span>Builds</span>
+            <span>About Us</span>
             <br></br>
           </span>
         </Link>
