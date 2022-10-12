@@ -1,60 +1,62 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import { Helmet } from 'react-helmet'
-
-import './home.css'
+import projectStyles from '.style.module.css'
+import styles from './home.module.css'
 
 const Home = (props) => {
   return (
-    <div className="home-container">
-      <Helmet>
-        <title>RTFM Server</title>
-        <meta property="og:title" content="RTFM Server" />
-        <link rel="Icon" href="/playground_assets/logo.png"></link>
-      </Helmet>
-        <div className="home-container2">
+    <div className={styles['container']}>
+      <div className={styles['container1']}>
+        <div className={styles['container2']}>
           <img
             alt="image"
             src="/playground_assets/logo.png"
-            className="home-image"
+            className={styles['image']}
           />
-          <span className="home-text">
+          <span className={styles['text']}>
             Welcome to the RTFM website!  Explore around and maybe join the
             server!
           </span>
         </div>
-        <div className="home-container1">
-            <Link to="/about-us" className="home-navlink button">
-              <span>
-                <span>About Us</span>
-                <br></br>
-              </span>
-            </Link>
-            <Link to="/builds" className="home-navlink1 button">
-              <span>
-                <span>Builds</span>
-                <br></br>
-              </span>
-            </Link>
-            <Link to="/dyn-map" className="home-navlink2 button">
-              <span>
-                <span>DynMap</span>
-                <br></br>
-              </span>
-            </Link>
-            <button className="home-button button">
-              <Link to="/members" className="home-navlink3">
-                <span>Members</span>
-                <br></br>
-              </Link>
-            </button>
-          </div>
-      <span className='copyright'>
-        Copyright © RTFM Group 2022
-      </span>
+        <Link
+          to="/about-us"
+          className={` ${styles['navlink']} ${projectStyles['button']} `}
+        >
+          <span>
+            <span>About Us</span>
+            <br></br>
+          </span>
+        </Link>
+        <Link
+          to="/builds"
+          className={` ${styles['navlink1']} ${projectStyles['button']} `}
+        >
+          <span>
+            <span>Builds</span>
+            <br></br>
+          </span>
+        </Link>
+        <Link
+          to="/dyn-map"
+          className={` ${styles['navlink2']} ${projectStyles['button']} `}
+        >
+          <span>
+            <span>DynMap</span>
+            <br></br>
+          </span>
+        </Link>
+        <button className={` ${styles['button']} ${projectStyles['button']} `}>
+          <Link to="/members" className={styles['navlink3']}>
+            <span>Members</span>
+            <br></br>
+          </Link>
+        </button>
+      </div>
+      <span className={styles['text12']}>Copyright @ RTFM Group 2022</span>
     </div>
   )
 }
 
 export default Home
+
