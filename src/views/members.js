@@ -9,34 +9,45 @@ const Members = (props) => {
   return (
     <div className="members-container">
       <Helmet>
-        <title>Members - RTFM Server</title>
-        <meta
-          property="og:title"
-          content="Members - RTFM Server"
-        />
-        <div className="members-html-node">
-        <span
-          dangerouslySetInnerHTML={{
-            __html:
-              '<iframe src="https://discord.com/widget?id=719543478270296074&theme=dark" width="350" height="500"\r\n    allowtransparency="true" frameborder="0"\r\n    sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>',
-          }}
-        />
-      </div>
+        <title>Members - RTFMWebsite</title>
+        <meta property="og:title" content="Members - RTFMWebsite" />
       </Helmet>
       <div className="members-container1">
-        <Link to="/" className="members-builds button">
-          Home
+        <img
+          src="https://i.imgur.com/0NGNFyE.png"
+          alt="image"
+          className="members-image"
+        />
+        <Link to="/about-us" className="members-navlink button">
+          <span>
+            <span>About Us</span>
+            <br></br>
+          </span>
         </Link>
-        <Link to="/about-us" className="members-about-us button">
-          About Us
+        <Link to="/builds" className="members-navlink1 button">
+          <span>
+            <span>Builds</span>
+            <br></br>
+          </span>
         </Link>
-        <Link to="/builds" className="members-navlink button">
-          Builds
+        <Link to="/dyn-map" className="members-navlink2 button">
+          <span>
+            <span>DynMap</span>
+            <br></br>
+          </span>
         </Link>
-        <Link to="/dyn-map" className="members-dyn-map button">
-          DynMap
-        </Link>
+        <button className="members-button button">
+          <Link to="/members" className="members-navlink3">
+            <span>Members</span>
+            <br></br>
+          </Link>
+        </button>
       </div>
+      <iframe
+        src="https://discord.com/widget?id=719543478270296074&amp;theme=dark"
+        className="members-iframe"
+      ></iframe>
+      <h1 className="members-text11">Join The Discord Here -&gt;</h1>
     </div>
   )
 }

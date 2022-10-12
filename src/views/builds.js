@@ -9,29 +9,40 @@ const Builds = (props) => {
   return (
     <div className="builds-container">
       <Helmet>
-        <title>Builds - RTFM Server</title>
-        <meta property="og:title" content="Builds - RTFM Server" />
+        <title>Builds - RTFMWebsite</title>
+        <meta property="og:title" content="Builds - RTFMWebsite" />
       </Helmet>
       <div className="builds-container1">
-        <Link to="/" className="builds-builds button">
-          Home
-        </Link>
-        <Link to="/about-us" className="builds-about-us button">
-          About Us
-        </Link>
-        <Link to="/dyn-map" className="builds-dyn-map button">
-          DynMap
-        </Link>
-        <Link to="/members" className="builds-navlink button">
+        <img
+          src="https://i.imgur.com/0NGNFyE.png"
+          alt="image"
+          className="builds-image"
+        />
+        <Link to="/about-us" className="builds-navlink button">
           <span>
-            <span>Members</span>
+            <span>About Us</span>
             <br></br>
           </span>
         </Link>
+        <Link to="/builds" className="builds-navlink1 button">
+          <span>
+            <span>Builds</span>
+            <br></br>
+          </span>
+        </Link>
+        <Link to="/dyn-map" className="builds-navlink2 button">
+          <span>
+            <span>DynMap</span>
+            <br></br>
+          </span>
+        </Link>
+        <button className="builds-button button">
+          <Link to="/members" className="builds-navlink3">
+            <span>Members</span>
+            <br></br>
+          </Link>
+        </button>
       </div>
-      <span className='copyright'>
-        Copyright © RTFM Group 2022
-      </span>
     </div>
   )
 }

@@ -13,21 +13,26 @@ const DynMap = (props) => {
         <meta property="og:title" content="DynMap - RTFMWebsite" />
       </Helmet>
       <div className="dyn-map-container1">
-        <Link to="/" className="dyn-map-navlink button">
-          <span>
-            <span>Home</span>
-            <br></br>
-          </span>
-        </Link>
-        <Link to="/about-us" className="dyn-map-navlink1 button">
+        <img
+          src="https://i.imgur.com/0NGNFyE.png"
+          alt="image"
+          className="dyn-map-image"
+        />
+        <Link to="/about-us" className="dyn-map-navlink button">
           <span>
             <span>About Us</span>
             <br></br>
           </span>
         </Link>
-        <Link to="/builds" className="dyn-map-navlink2 button">
+        <Link to="/builds" className="dyn-map-navlink1 button">
           <span>
             <span>Builds</span>
+            <br></br>
+          </span>
+        </Link>
+        <Link to="/dyn-map" className="dyn-map-navlink2 button">
+          <span>
+            <span>DynMap</span>
             <br></br>
           </span>
         </Link>

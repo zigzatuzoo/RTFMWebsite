@@ -1,62 +1,64 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 
-import projectStyles from '.style.module.css'
-import styles from './home.module.css'
+import { Helmet } from 'react-helmet'
+
+import './home.css'
 
 const Home = (props) => {
   return (
-    <div className={styles['container']}>
-      <div className={styles['container1']}>
-        <div className={styles['container2']}>
-          <img
-            alt="image"
-            src="/playground_assets/logo.png"
-            className={styles['image']}
-          />
-          <span className={styles['text']}>
-            Welcome to the RTFM website!  Explore around and maybe join the
-            server!
-          </span>
-        </div>
-        <Link
-          to="/about-us"
-          className={` ${styles['navlink']} ${projectStyles['button']} `}
-        >
+    <div className="home-container">
+      <Helmet>
+        <title>RTFMWebsite</title>
+        <meta property="og:title" content="RTFMWebsite" />
+      </Helmet>
+      <div className="home-container1">
+        <img
+          src="https://i.imgur.com/0NGNFyE.png"
+          alt="image"
+          className="home-image"
+        />
+        <Link to="/about-us" className="home-navlink button">
           <span>
             <span>About Us</span>
             <br></br>
           </span>
         </Link>
-        <Link
-          to="/builds"
-          className={` ${styles['navlink1']} ${projectStyles['button']} `}
-        >
+        <Link to="/builds" className="home-navlink1 button">
           <span>
             <span>Builds</span>
             <br></br>
           </span>
         </Link>
-        <Link
-          to="/dyn-map"
-          className={` ${styles['navlink2']} ${projectStyles['button']} `}
-        >
+        <Link to="/dyn-map" className="home-navlink2 button">
           <span>
             <span>DynMap</span>
             <br></br>
           </span>
         </Link>
-        <button className={` ${styles['button']} ${projectStyles['button']} `}>
-          <Link to="/members" className={styles['navlink3']}>
+        <button className="home-button button">
+          <Link to="/members" className="home-navlink3">
             <span>Members</span>
             <br></br>
           </Link>
         </button>
       </div>
-      <span className={styles['text12']}>Copyright @ RTFM Group 2022</span>
+      <div className="home-container2">
+        <div className="home-container3">
+          <img
+            src="https://i.imgur.com/0NGNFyE.png"
+            alt="image"
+            className="home-image1"
+          />
+          <span className="home-text11">
+            Welcome to the RTFM website!  Explore around and maybe join the
+            server!
+          </span>
+        </div>
+      </div>
+      <span className="home-text12">Copyright @ RTFM Group 2022</span>
     </div>
   )
 }
 
 export default Home
-
