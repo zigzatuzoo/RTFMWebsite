@@ -12,21 +12,7 @@ const Home = (props) => {
         <title>RTFM Server</title>
         <meta property="og:title" content="RTFM Server" />
         <link rel="Icon" href="/playground_assets/logo.png"></link>
-      </Helmet>
-      <div className="home-container1">
-        <div className="home-container2">
-          <img
-            alt="image"
-            src="/playground_assets/logo.png"
-            className="home-image"
-          />
-          <span className="home-text">
-            Welcome to the RTFM website!  Explore around and maybe join the
-            server!
-          </span>
-        </div>
-      </div>
-      <div className="home-container3">
+        <div className="home-container3">
         <Link to="/about-us" className="home-navlink button">
           <span>
             <span>About Us</span>
@@ -51,6 +37,20 @@ const Home = (props) => {
             <br></br>
           </Link>
         </button>
+      </div>
+      </Helmet>
+      <div className="home-container1">
+        <div className="home-container2">
+          <img
+            alt="image"
+            src="/playground_assets/logo.png"
+            className="home-image"
+          />
+          <span className="home-text">
+            Welcome to the RTFM website!  Explore around and maybe join the
+            server!
+          </span>
+        </div>
       </div>
       <span className='copyright'>
         Copyright © RTFM Group 2022
