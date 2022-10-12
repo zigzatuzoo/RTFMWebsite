@@ -31,6 +31,7 @@
   flex-direction: column;
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.66);
+  align-self: center;
 }
 .home-image {
   width: 400px;
@@ -80,5 +81,6 @@
 .copyright {
   color: #ffffff;
   background-color: #000000;
-  bottom: 0%;
+  bottom: 0;
+  align-self: center;
 }
