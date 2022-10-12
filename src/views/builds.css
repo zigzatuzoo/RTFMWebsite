@@ -53,6 +53,12 @@
   justify-content: center;
   background-color: var(--dl-color-gray-black);
 }
+.treefarm-image {
+  width: 1000px;
+  height: 1000px;
+  align-self: left;
+  object-fit: cover;
+}
 .copyright {
   color: #ffffff;
   background-color: #000000;
