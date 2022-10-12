@@ -6,7 +6,7 @@
   align-items: center;
   flex-direction: column;
   justify-content: flex-start;
-  background-color: #000000;
+  background-image: url("/playground_assets/otherbuilds.png");
 }
 .members-container1 {
   width: 100%;
