@@ -16,7 +16,8 @@
   display: flex;
   overflow: auto;
   min-height: 100vh;
-  align-items: top;
+  align-items: flex-start;
+  top: 10px;
   flex-direction: column;
   justify-content: flex-start;
   
