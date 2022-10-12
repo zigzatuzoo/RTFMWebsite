@@ -6,9 +6,9 @@ import styles from './home.module.css'
 
 const Home = (props) => {
   return (
-    <div className={styles['container']}>
-      <div className={styles['container1']}>
-        <div className={styles['container2']}>
+    <div className={styles['home-container']}>
+      <div className={styles['home-container1']}>
+        <div className={styles['home-container2']}>
           <img
             alt="image"
             src="/playground_assets/logo.png"
