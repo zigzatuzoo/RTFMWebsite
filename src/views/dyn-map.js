@@ -51,12 +51,10 @@ const DynMap = (props) => {
           <iframe width="100%" height="100%" src="https://dynmap.rtfmserver.online/">
           </iframe>
         </body>
-      </div>
-      <div className='dynmap-container2'>
-        <span className='copyright'>
-          Copyright © RTFM Group 2022
-        </span>
-      </div>
+      </div>   
+      <span className='copyright'>
+        Copyright © RTFM Group 2022
+      </span>
     </div>
   )
 }

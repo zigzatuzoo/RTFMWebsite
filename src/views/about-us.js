@@ -32,11 +32,11 @@ const AboutUs = (props) => {
           </span>
         </Link>
       </div>
-      <div className='about-us-container2'>
-        <span className='copyright'>
-          Copyright © RTFM Group 2022
-        </span>
-      </div>
+      
+      <span className='copyright'>
+        Copyright © RTFM Group 2022
+      </span>
+      
     </div>
   )
 }
