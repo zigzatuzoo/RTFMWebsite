@@ -6,6 +6,7 @@
   align-items: center;
   flex-direction: column;
   justify-content: flex-start;
+  background-color: #000000;
 }
 .home-container1 {
   width: 100%;

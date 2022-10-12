@@ -32,11 +32,9 @@ const AboutUs = (props) => {
           </span>
         </Link>
       </div>
-      
       <span className='copyright'>
         Copyright © RTFM Group 2022
       </span>
-      
     </div>
   )
 }

@@ -46,7 +46,5 @@
 }
 .copyright {
   color: #ffffff;
-  align-self: center;
-  text-align: center;
-  bottom: 0;
+  background-color: #000000;
 }

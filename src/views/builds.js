@@ -30,10 +30,10 @@ const Builds = (props) => {
         </Link>
       </div>
       <div className='builds-container2'>
-        <span className='copyright'>
-          Copyright © RTFM Group 2022
-        </span>
       </div>
+      <span className='copyright'>
+        Copyright © RTFM Group 2022
+      </span>
     </div>
   )
 }
