@@ -16,7 +16,7 @@ const Home = (props) => {
         <div className="home-container2">
           <img
             alt="image"
-            src="/playground_assets/capture-removebg-preview-400h.png"
+            src="/playground_assets/logo.png"
             className="home-image"
           />
           <span className="home-text">
