@@ -37,6 +37,10 @@ const Members = (props) => {
               '<iframe src="https://discord.com/widget?id=719543478270296074&theme=dark" width="350" height="500"\r\n    allowtransparency="true" frameborder="0"\r\n    sandbox="allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts"></iframe>',
           }}
         />
+        <div>
+          <span className='backgroundImg' href='playgroud_assets/otherbuilds.png'>
+          </span>
+        </div>
       </div>
       <span className='copyright'>
         Copyright © RTFM Group 2022
