@@ -73,3 +73,9 @@
 .home-navlink3 {
   text-decoration: none;
 }
+.copyright {
+  color: #ffffff;
+  align-self: center;
+  text-align: center;
+  bottom: 0;
+}

@@ -43,4 +43,20 @@
 }
 .dyn-map-navlink3 {
   text-decoration: none;
+
+}
+.dynmap-container2 {
+  width: 100%;
+  height: 61px;
+  display: flex;
+  align-items: center;
+  bottom: 0;
+  justify-content: center;
+  background-color: var(--dl-color-gray-black);
+}
+.copyright {
+  color: #ffffff;
+  align-self: center;
+  text-align: center;
+  bottom: 0;
 }

@@ -29,6 +29,11 @@ const Builds = (props) => {
           </span>
         </Link>
       </div>
+      <div className='builds-container2'>
+        <span className='copyright'>
+          Copyright © RTFM Group 2022
+        </span>
+      </div>
     </div>
   )
 }

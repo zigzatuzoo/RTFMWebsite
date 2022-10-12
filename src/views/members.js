@@ -29,6 +29,11 @@ const Members = (props) => {
           DynMap
         </Link>
       </div>
+      <div className='members-container2'>
+        <span className='copyright'>
+          Copyright © RTFM Group 2022
+        </span>
+      </div>
       <div className="members-html-node">
         <span
           dangerouslySetInnerHTML={{
