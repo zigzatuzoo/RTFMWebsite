@@ -18,9 +18,9 @@ const Builds = (props) => {
           alt="image"
           className="builds-image"
         />
-        <Link to="/home" className="builds-navlink2 button">
+        <Link to="/Home" className="builds-navlink2 button">
           <span>
-            <span>home</span>
+            <span>Home</span>
             <br></br>
           </span>
         </Link>

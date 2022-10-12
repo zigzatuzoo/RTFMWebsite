@@ -18,9 +18,9 @@ const DynMap = (props) => {
           alt="image"
           className="dyn-map-image"
         />
-        <Link to="/home" className="dyn-map-navlink2 button">
+        <Link to="/Home" className="dyn-map-navlink2 button">
           <span>
-            <span>home</span>
+            <span>Home</span>
             <br></br>
           </span>
         </Link>
