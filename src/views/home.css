@@ -21,6 +21,9 @@
   justify-content: center;
   background-color: var(--dl-color-gray-black);
 }
+.home-link {
+  display: contents;
+}
 .home-image {
   top: 0px;
   right: 0px;
@@ -28,6 +31,7 @@
   height: var(--dl-size-size-small);
   position: absolute;
   object-fit: cover;
+  text-decoration: none;
 }
 .home-navlink {
   color: rgb(255, 255, 255);
@@ -65,10 +69,10 @@
   max-width: 100%;
   max-height: 100%;
   min-height: auto;
-  align-items: center;
+  align-items: flex-end;
   flex-direction: column;
   background-size: cover;
-  justify-content: center;
+  justify-content: flex-start;
   background-image: url('https://i.imgur.com/8shc1HA.jpg');
   background-position: center;
 }
@@ -88,7 +92,7 @@
   justify-content: center;
   background-color: rgba(0, 0, 0, 0.66);
 }
-.home-text14 {
+.home-text15 {
   left: 5px;
   color: #ffffff;
   bottom: 173px;
@@ -119,19 +123,38 @@
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
 }
-.home-text15 {
+.home-text16 {
   top: 25px;
   left: 550px;
   color: rgb(255, 255, 255);
   margin: auto;
   position: absolute;
 }
+@media(max-width: 1600px) {
+  .home-container1 {
+    height: 57px;
+  }
+  .home-image {
+    top: -1px;
+    right: 2px;
+    width: 66px;
+    height: 59px;
+    padding: 0px;
+    border-color: #000000;
+  }
+  .home-text14 {
+    top: -1px;
+    color: #ffffff;
+    right: 67px;
+    position: absolute;
+  }
+}
 @media(max-width: 767px) {
   .home-footer {
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .home-text15 {
+  .home-text16 {
     text-align: center;
     margin-left: var(--dl-space-space-unit);
     margin-right: var(--dl-space-space-unit);
@@ -142,7 +165,7 @@
     padding: var(--dl-space-space-unit);
     flex-direction: column;
   }
-  .home-text15 {
+  .home-text16 {
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-unit);

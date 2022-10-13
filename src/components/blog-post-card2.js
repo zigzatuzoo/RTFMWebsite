@@ -37,32 +37,32 @@ const BlogPostCard2 = (props) => {
 }
 
 BlogPostCard2.defaultProps = {
+  image_alt: 'image',
+  profile_src:
+    'https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fHBvcnRyYWl0fGVufDB8fHx8MTYyNjM3ODk3Mg&ixlib=rb-1.2.1&h=1200',
+  author: 'Jane Doe',
+  when: '3 days ago',
+  title: 'Lorem ipsum dolor sit amet',
   image_src:
     'https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fHBvcnRyYWl0fGVufDB8fHx8MTYyNjM3ODk3Mg&ixlib=rb-1.2.1&w=1000',
   rootClassName: '',
-  image_alt: 'image',
-  label: 'ENTERPRISE',
+  profile_alt: 'profile',
   description:
     'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed non volutpat turpis. Mauris luctus rutrum mi ut rhoncus. Integer in dignissim tortor. Lorem ipsum dolor sit amet, consectetur adipiscing ...',
-  profile_src:
-    'https://images.unsplash.com/photo-1534528741775-53994a69daeb?ixid=Mnw5MTMyMXwwfDF8c2VhcmNofDd8fHBvcnRyYWl0fGVufDB8fHx8MTYyNjM3ODk3Mg&ixlib=rb-1.2.1&h=1200',
-  title: 'Lorem ipsum dolor sit amet',
-  profile_alt: 'profile',
-  when: '3 days ago',
-  author: 'Jane Doe',
+  label: 'ENTERPRISE',
 }
 
 BlogPostCard2.propTypes = {
+  image_alt: PropTypes.string,
+  profile_src: PropTypes.string,
+  author: PropTypes.string,
+  when: PropTypes.string,
+  title: PropTypes.string,
   image_src: PropTypes.string,
   rootClassName: PropTypes.string,
-  image_alt: PropTypes.string,
-  label: PropTypes.string,
-  description: PropTypes.string,
-  profile_src: PropTypes.string,
-  title: PropTypes.string,
   profile_alt: PropTypes.string,
-  when: PropTypes.string,
-  author: PropTypes.string,
+  description: PropTypes.string,
+  label: PropTypes.string,
 }
 
 export default BlogPostCard2

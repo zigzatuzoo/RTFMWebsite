@@ -6,9 +6,9 @@ import './style.css'
 import Members from './views/members'
 import DynMap from './views/dyn-map'
 import AboutUs from './views/about-us'
+import Blog from './views/blog'
 import Builds from './views/builds'
 import Home from './views/home'
-import Blog from './views/blog'
 
 const App = () => {
   return (
@@ -17,9 +17,9 @@ const App = () => {
         <Route component={Members} exact path="/members" />
         <Route component={DynMap} exact path="/dyn-map" />
         <Route component={AboutUs} exact path="/about-us" />
+        <Route component={Blog} exact path="/blog" />
         <Route component={Builds} exact path="/builds" />
         <Route component={Home} exact path="/" />
-        <Route component={Blog} exact path="/blog" />
       </div>
     </Router>
   )

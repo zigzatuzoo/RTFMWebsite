@@ -52,10 +52,10 @@ const Builds = (props) => {
       </div>
       <div className="builds-gallery">
         <GalleryCard1
-          rootClassName="rootClassName"
           title="Tree Farm"
           subtitle="We are always trying to find new ways to automate anything we can, as well as making it look good in the process."
           image_src="https://i.imgur.com/mmozsL8.jpg"
+          rootClassName="rootClassName"
         ></GalleryCard1>
       </div>
     </div>

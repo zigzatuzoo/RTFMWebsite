@@ -53,30 +53,30 @@ const Blog = (props) => {
       <div className="blog-blog">
         <div className="blog-container2">
           <BlogPostCard2
+            label="Test"
+            author="Nate"
+            image_src="https://i.imgur.com/0NGNFyE.png"
+            description="Test"
             profile_src="https://i.imgur.com/0NGNFyE.png"
             rootClassName="rootClassName3"
-            image_src="https://i.imgur.com/0NGNFyE.png"
-            label="Test"
-            description="Test"
-            author="Nate"
           ></BlogPostCard2>
         </div>
         <div className="blog-container3">
           <BlogPostCard2
+            label="N3rds"
+            title="NERD"
+            author="Nate"
             image_src="https://i.imgur.com/0NGNFyE.png"
+            description="N3rdinc"
             profile_src="https://i.imgur.com/0NGNFyE.png"
             rootClassName="rootClassName"
-            author="Nate"
-            label="N3rds"
-            description="N3rdinc"
-            title="NERD"
           ></BlogPostCard2>
         </div>
         <BlogPostCard2
+          author="Nate"
           image_src="https://i.imgur.com/0NGNFyE.png"
           profile_src="https://i.imgur.com/0NGNFyE.png"
           rootClassName="rootClassName2"
-          author="Nate"
         ></BlogPostCard2>
       </div>
     </div>
