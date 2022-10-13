@@ -37,8 +37,14 @@ const Builds = (props) => {
             <br></br>
           </span>
         </Link>
+        <Link to="/forums" className="builds-navlink3 button">
+          <span>
+            <span>Forums</span>
+            <br></br>
+          </span>
+        </Link>
         <button className="builds-button button">
-          <Link to="/members" className="builds-navlink3">
+          <Link to="/members" className="builds-navlink4">
             <span>Members</span>
             <br></br>
           </Link>

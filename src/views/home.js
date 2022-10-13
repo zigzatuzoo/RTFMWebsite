@@ -36,8 +36,14 @@ const Home = (props) => {
             <br></br>
           </span>
         </Link>
+        <Link to="/forums" className="home-navlink3 button">
+          <span>
+            <span>Forums</span>
+            <br></br>
+          </span>
+        </Link>
         <button className="home-button button">
-          <Link to="/members" className="home-navlink3">
+          <Link to="/members" className="home-navlink4">
             <span>Members</span>
             <br></br>
           </Link>
@@ -45,7 +51,7 @@ const Home = (props) => {
       </div>
       <div className="home-container2">
         <div className="home-container3">
-          <span className="home-text11">
+          <span className="home-text14">
             Welcome to the RTFM website!  Explore around and maybe join the
             server!
           </span>
@@ -56,7 +62,11 @@ const Home = (props) => {
           />
         </div>
       </div>
-      <span className="home-text12">Copyright @ RTFM Group 2022</span>
+      <footer className="home-footer">
+        <span className="home-text15">
+          © 2022 RTFM Group, All Rights Reserved.
+        </span>
+      </footer>
     </div>
   )
 }

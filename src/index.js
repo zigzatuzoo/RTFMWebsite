@@ -8,6 +8,7 @@ import DynMap from './views/dyn-map'
 import AboutUs from './views/about-us'
 import Builds from './views/builds'
 import Home from './views/home'
+import Forums from './views/forums'
 
 const App = () => {
   return (
@@ -18,6 +19,7 @@ const App = () => {
         <Route component={AboutUs} exact path="/about-us" />
         <Route component={Builds} exact path="/builds" />
         <Route component={Home} exact path="/" />
+        <Route component={Forums} exact path="/forums" />
       </div>
     </Router>
   )

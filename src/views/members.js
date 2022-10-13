@@ -42,12 +42,18 @@ const Members = (props) => {
             <br></br>
           </span>
         </Link>
+        <Link to="/forums" className="members-navlink4 button">
+          <span>
+            <span>Forums</span>
+            <br></br>
+          </span>
+        </Link>
       </div>
       <iframe
         src="https://discord.com/widget?id=719543478270296074&amp;theme=dark"
         className="members-iframe"
       ></iframe>
-      <h1 className="members-text12">Join The Discord Here</h1>
+      <h1 className="members-text15">Join The Discord Here</h1>
     </div>
   )
 }
