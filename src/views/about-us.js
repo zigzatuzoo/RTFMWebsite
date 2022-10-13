@@ -36,9 +36,9 @@ const AboutUs = (props) => {
             <br></br>
           </span>
         </Link>
-        <Link to="/forums" className="about-us-navlink3 button">
+        <Link to="/blog" className="about-us-navlink3 button">
           <span>
-            <span>Forums</span>
+            <span>Blog</span>
             <br></br>
           </span>
         </Link>

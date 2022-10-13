@@ -37,9 +37,9 @@ const Builds = (props) => {
             <br></br>
           </span>
         </Link>
-        <Link to="/forums" className="builds-navlink3 button">
+        <Link to="/blog" className="builds-navlink3 button">
           <span>
-            <span>Forums</span>
+            <span>Blog</span>
             <br></br>
           </span>
         </Link>

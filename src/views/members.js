@@ -42,9 +42,9 @@ const Members = (props) => {
             <br></br>
           </span>
         </Link>
-        <Link to="/forums" className="members-navlink4 button">
+        <Link to="/blog" className="members-navlink4 button">
           <span>
-            <span>Forums</span>
+            <span>Blog</span>
             <br></br>
           </span>
         </Link>
