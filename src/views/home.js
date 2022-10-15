@@ -69,22 +69,9 @@ const Home = (props) => {
                     data-thq="thq-dropdown-toggle"
                     className="home-dropdown-toggle2"
                   >
-                    <a
-                      href="https://example.com"
-                      target="_blank"
-                      rel="noreferrer noopener"
-                      className="home-link1"
-                    >
-                      <span>
-                        About
-                        <span
-                          dangerouslySetInnerHTML={{
-                            __html: ' ',
-                          }}
-                        />
-                      </span>
-                      <span>Us</span>
-                    </a>
+                    <Link to="/about-us" className="home-link1">
+                      AboutUs
+                    </Link>
                   </div>
                 </li>
                 <li
@@ -160,12 +147,12 @@ const Home = (props) => {
                 className="home-image1 button"
               />
             </a>
-            <span className="home-text6">&lt;-Click to Donate</span>
+            <span className="home-text4">&lt;-Click to Donate</span>
           </div>
         </div>
       </div>
       <footer className="home-footer">
-        <span className="home-text7">
+        <span className="home-text5">
           © 2022 RTFM Group, All Rights Reserved.
         </span>
       </footer>

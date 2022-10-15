@@ -190,7 +190,7 @@
   background-color: #595959;
 }
 .home-link1 {
-  text-decoration: underline;
+  text-decoration: none;
 }
 .home-dropdown2 {
   cursor: pointer;
@@ -316,7 +316,7 @@
   object-fit: cover;
   text-decoration: none;
 }
-.home-text6 {
+.home-text4 {
   color: #ffffff;
 }
 .home-footer {
@@ -331,7 +331,7 @@
   padding-bottom: var(--dl-space-space-twounits);
   justify-content: space-between;
 }
-.home-text7 {
+.home-text5 {
   top: 25px;
   left: 550px;
   color: rgb(255, 255, 255);
@@ -376,10 +376,13 @@
     display: flex;
   }
   .home-dropdown-list1 {
-    display: none;
+    display: flex;
   }
   .home-link {
     text-decoration: inherit;
+  }
+  .home-link1 {
+    text-decoration: none;
   }
   .home-link2 {
     text-decoration: none;
@@ -402,7 +405,7 @@
     position: static;
     border-color: #000000;
   }
-  .home-text6 {
+  .home-text4 {
     color: rgb(255, 255, 255);
     position: static;
   }
@@ -415,7 +418,7 @@
     padding-left: var(--dl-space-space-twounits);
     padding-right: var(--dl-space-space-twounits);
   }
-  .home-text7 {
+  .home-text5 {
     text-align: center;
     margin-left: var(--dl-space-space-unit);
     margin-right: var(--dl-space-space-unit);
@@ -426,7 +429,7 @@
     padding: var(--dl-space-space-unit);
     flex-direction: column;
   }
-  .home-text7 {
+  .home-text5 {
     margin-left: 0px;
     margin-right: 0px;
     margin-bottom: var(--dl-space-space-unit);
