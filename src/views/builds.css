@@ -60,6 +60,11 @@
   max-width: var(--dl-size-size-maxwidth);
   grid-template-columns: 1fr 1fr 1fr;
 }
+@media(max-width: 1600px) {
+  .builds-container1 {
+    height: 57px;
+  }
+}
 @media(max-width: 991px) {
   .builds-gallery {
     grid-template-columns: 1fr 1fr;

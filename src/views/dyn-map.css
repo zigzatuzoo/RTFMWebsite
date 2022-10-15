@@ -57,6 +57,11 @@
   height: 942px;
   align-self: center;
 }
+@media(max-width: 1600px) {
+  .dyn-map-container1 {
+    height: 57px;
+  }
+}
 @media(max-width: 1200px) {
   .dyn-map-iframe {
     flex: 1;

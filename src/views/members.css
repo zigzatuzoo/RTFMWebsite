@@ -69,3 +69,8 @@
   font-weight: 800;
   padding-bottom: 4px;
 }
+@media(max-width: 1600px) {
+  .members-container1 {
+    height: 57px;
+  }
+}

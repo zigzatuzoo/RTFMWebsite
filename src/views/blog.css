@@ -74,6 +74,11 @@
   flex-direction: column;
   justify-content: space-between;
 }
+@media(max-width: 1600px) {
+  .blog-container1 {
+    height: 57px;
+  }
+}
 @media(max-width: 767px) {
   .blog-blog {
     padding-left: var(--dl-space-space-twounits);
