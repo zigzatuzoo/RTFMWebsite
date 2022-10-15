@@ -21,11 +21,17 @@
   align-self: flex-start;
 }
 .gallery-card1-root-class-name {
+  width: auto;
+}
+.gallery-card1-root-class-name1 {
   top: 48px;
   left: 0px;
   right: 0px;
   margin: auto;
   position: absolute;
+}
+.gallery-card1-root-class-name2 {
+  width: auto;
 }
 @media(max-width: 767px) {
   .gallery-card1-gallery-card {

@@ -36,18 +36,12 @@ const DynMap = (props) => {
             <br></br>
           </span>
         </Link>
-        <Link to="/blog" className="dyn-map-navlink3 button">
-          <span>
-            <span>Blog</span>
+        <Link to="/members" className="dyn-map-navlink3 button">
+          <span className="dyn-map-text09">
+            <span>Members</span>
             <br></br>
           </span>
         </Link>
-        <button className="dyn-map-button button">
-          <Link to="/members" className="dyn-map-navlink4">
-            <span>Members</span>
-            <br></br>
-          </Link>
-        </button>
       </div>
       <iframe
         src="https://dynmap.rtfmserver.online/"

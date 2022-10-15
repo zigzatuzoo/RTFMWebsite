@@ -39,8 +39,9 @@
   background-position: center;
 }
 .home-sidebar {
+  flex: 1;
   width: 429px;
-  height: 916px;
+  height: 100%;
   display: flex;
   padding: var(--dl-space-space-twounits);
   flex-direction: column;
@@ -187,6 +188,9 @@
   fill: #fff;
   color: #fff;
   background-color: #595959;
+}
+.home-link1 {
+  text-decoration: underline;
 }
 .home-dropdown2 {
   cursor: pointer;
@@ -376,12 +380,6 @@
   }
   .home-link {
     text-decoration: inherit;
-  }
-  .home-link1 {
-    text-decoration: inherit;
-  }
-  .home-text5 {
-    text-decoration: underline;
   }
   .home-link2 {
     text-decoration: none;

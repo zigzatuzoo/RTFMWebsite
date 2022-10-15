@@ -83,7 +83,7 @@ const Home = (props) => {
                           }}
                         />
                       </span>
-                      <span className="home-text5">Us</span>
+                      <span>Us</span>
                     </a>
                   </div>
                 </li>
