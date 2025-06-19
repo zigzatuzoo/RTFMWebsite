@@ -214,3 +214,49 @@ input[type=checkbox] {
 	text-decoration-thickness: 1px;
 	color: white;
 }
+
+
+
+.member-section {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin: 60px auto;
+    max-width: 1000px;
+    scroll-margin-top: 100px;
+}
+
+.member-section:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.member-image {
+    width: 200px;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 12px;
+    margin: 20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.member-info {
+    max-width: 600px;
+    padding: 20px;
+}
+
+.member-info h2 {
+    margin-top: 0;
+}
+
+.specialties {
+    font-style: italic;
+    color: #666;
+}
+
+.anchor-link {
+    display: block;
+    position: relative;
+    top: -100px;
+    visibility: hidden;
+}
